@@ -14,7 +14,7 @@ class DotProductThread(Thread):
         self._column = column
 
     @property
-    def result(self) -> List:
+    def result(self) -> Int:
         if self._result is None:
             raise ValueError('Result is not ready')
 
